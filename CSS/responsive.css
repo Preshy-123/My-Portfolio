@@ -75,7 +75,7 @@
     
   }
   #about {
-    height: 110vh;
+    height: 100vh;
     width: 100vw;
   }
   #about img {
@@ -93,17 +93,19 @@
     font-size: 18px;
     text-align: center;
     position: relative;
-    right: 9em;
+    right: 15em;
     font-weight: bold;
     top: 6em;
     
   }
   #about p {
-    font-size: 17px;
+    font-size: 18px;
     text-align: start;
     position: relative;
-    right: 8.5em;
-    top: 5em;
+    
+    top: 6em;
+    margin: auto;
+    
   }
   #project {
     height: 100vh;
@@ -124,9 +126,9 @@
     text-decoration: underline;
   }
   .span{
-    height: 70vh;
+    height: 75vh;
     position: relative;
-    right: 4em;
+    right: 4.5em;
     top: 4em;
   }
   #skills {
@@ -166,7 +168,7 @@
     }
   footer {
     text-align: center;
-    font-size: 11px;
+    font-size: 12px;
     font-weight: bolder;
     top: 20em;
     position: relative;
