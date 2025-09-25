@@ -81,7 +81,7 @@
     
   }
   #about {
-    height: 80vh;
+    height: 90vh;
     width: 100vw;
   }
   #about img {
@@ -95,7 +95,7 @@
   text-decoration: underline;
   }
   #about h4 {
-    margin-top: 19em;
+    margin-top: 12em;
     font-size: 16px;
     text-align: center;
     position: relative;
@@ -144,7 +144,7 @@
   position: absolute;
   left:11em ;
   gap: 14em;
-  bottom: 4em;
+  bottom: 0em;
   }
 
   #skills {
