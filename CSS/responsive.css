@@ -62,7 +62,7 @@
     
     font-size: 35px;
     align-items: center;
-    right: 2em;
+    right: 1.5em;
   }
   .hero-details p {
     text-align: center;
@@ -81,7 +81,7 @@
     
   }
   #about {
-    height: 75vh;
+    height: 80vh;
     width: 100vw;
   }
   #about img {
