@@ -382,3 +382,4 @@ body.dark-mode {
   border-radius: 5px;
    display: none; hidden until error shows 
 }  */
+html { scroll-behavior: smooth; }

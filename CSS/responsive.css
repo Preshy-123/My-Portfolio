@@ -5,15 +5,16 @@
   .nav-menu {
     flex-direction: column;
     background-color: rgb(153, 151, 151);
-    width: 40vw;
-    height: 60vh;
+    width: 60vw;
+    height: 50vh;
     text-align: center;
     align-items: center;
     position: absolute;
     gap: 2em;
-    right: 3em;
+    right: 0em;
     border-radius: 1em;
     display: none;
+    top: 3em;
     
   }
   .nav-menu a {
@@ -26,6 +27,7 @@
     top: 3em;
     color: rgb(46, 46, 46);
   }
+  
   .nav-menu.show {
     display: flex;
   }
@@ -84,7 +86,7 @@
   }
   #about img {
     position: absolute;
-    right: 3em;
+    right: 3.3em;
     width: 70%;
     height: 40vh;
   }
