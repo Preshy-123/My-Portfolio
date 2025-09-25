@@ -1,4 +1,4 @@
-@media (max-width: 768px) {
+@media (max-width: 760px) {
   .navbox {
     justify-content: center;
   }
@@ -14,6 +14,7 @@
     right: 3em;
     border-radius: 1em;
     display: none;
+    
   }
   .nav-menu a {
     font-size: larger;
@@ -34,9 +35,11 @@
     font-size: 2rem;
     color: black;
     position: relative;
-    margin-right: 2em;
+    right: 1em;
+    top: 0.2em;
+  
   }
-
+  
   .grid-2 {
     grid-template-columns: 1fr;
     gap: 1em;
@@ -44,7 +47,7 @@
   }
   .logo img {
     position: relative;
-    margin-right: 25em;
+    margin-right: 22em;
     height: 7vh;
     width: 7vw;
   }
@@ -54,52 +57,53 @@
   }
   .hero-details h1 {
     position: relative;
-    margin-right: 2em;
     max-width: 100%;
     font-size: 35px;
   }
   .hero-details p {
     text-align: center;
-    margin-right: 2em;
     margin-bottom: 1em;
     max-width: 100%;
     font-size: 20px;
   }
   .hero img {
     position: absolute;
-    width: 40vw;
+    width: 80vw;
     height: 40vh;
-    right: 8em;
+    right: 1em;
+    margin: bottom 7px;
+    
   }
   #about {
-    height: 100vh;
+    height: 110vh;
     width: 100vw;
   }
   #about img {
     position: absolute;
-    right: 7em;
-    width: 50%;
-    height: 30vh;
+    right: 3em;
+    width: 70%;
+    height: 40vh;
   }
   #about h2 {
     position: relative;
-    right: 6em;
+  text-decoration: underline;
   }
   #about h4 {
     margin-top: 13em;
-    font-size: 17px;
+    font-size: 18px;
     text-align: center;
     position: relative;
-    right: 12em;
+    right: 9em;
     font-weight: bold;
-    top: 4em;
+    top: 7em;
+    
   }
   #about p {
     font-size: 17px;
     text-align: start;
     position: relative;
-    right: 11em;
-    top: 3em;
+    right: 8.5em;
+    top: 7em;
   }
   #project {
     height: 100vh;
@@ -117,26 +121,30 @@
     position: relative;
     left: 3em;
     top: 2em;
+    text-decoration: underline;
   }
   .span{
-    height: 70vh;
+    height: 80vh;
     position: relative;
-    right: 5em;
+    right: 4em;
     top: 4em;
   }
   #skills {
     width: 90%;
     height: 70vh;
   }
+    #skills h2{
+      text-decoration: underline;
+    }
   .skills1 {
     height: 40vh;
     width: 50%;
     display: flex;
     align-items: center;
     padding: 20px 0px 10px 0px;
-    justify-content: flex-start;
     position: relative;
     right: 15em;
+    
   }
   #skills h4 {
     text-align: center;
@@ -150,17 +158,23 @@
   #contacts{
     height: 80vh;
   }
+    #contacts h2{
+      text-decoration: underline;
+    }
+    .container1 {
+      align-content: center;
+    }
   footer {
     text-align: center;
     font-size: 11px;
     font-weight: bolder;
-    top: 5em;
+    top: 12em;
     position: relative;
-    right: 9em;
+
   }
   #modeToggle {
     position: relative;
-    bottom: 5em;
-    left: 20em;
+    bottom: 5.5em;
+    left: 13em;
   }
 }
