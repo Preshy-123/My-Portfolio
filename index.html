@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link
+      rel="shortcut icon"
+      href="./img/Minimalist Web Developer Logo.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./CSS/style.css" />
+    <link rel="stylesheet" href="./CSS/responsive.css">
+    <link href='https://cdn.boxicons.com/fonts/basic/boxicons.min.css' rel='stylesheet'>
+  </head>
+  <body>
+    <header>
+      <nav class="navbox container">
+        <div class="logo">
+          <img src="./img/LOGO.png" alt="">
+
+           <button id="modeToggle"><i class='bxr  bx-light-bulb' style="font-size:2rem"></i> </button>
+          </div>
+            
+          <div id="nav-menu" class="nav-menu">
+            <nav class="nav-menu-list flex">
+              <a href="#home"> Home</a>
+              <a href="#about ">About</a>
+              <a href="#project">Projects</a>
+              <a href="#skills">Skills</a>
+              <a href="#contacts">Contacts</a>
+            </nav>
+          </div>
+
+          <div class="toggle_menu" onclick="openMenu()">
+        <i class='bxr  bx-menu'  style='color: rgb(46, 46, 46)'></i> 
+        </div>
+      
+      </nav>
+    </header>
+
+    <section class="hero">
+      <div class="grid grid-2 ">
+        <div class="hero-details">
+          <h1>Hello! welcome to my portfolio,</h1>
+          <p>
+            Where you can find information about me, my projects, skills, and
+            contact details.
+          </p>
+        </div>
+        <a href="#"
+          ><img src="./img/WhatsApp Image 2025-09-12 at 11.22.10 PM.jpeg" alt=""
+        /></a>
+      </div>
+    </section>
+
+    <section id="about">
+      <h2>About</h2>
+      <a href="#"
+        ><img src="./img/Minimalist Web Developer Logo.png" alt=""
+      /></a>
+      <h4>I am Precious</h4>
+      <p>
+        I am a passionate front-end developer with a strong foundation in HTML,
+        CSS, and JavaScript. <br />
+        I enjoy building responsive,user-friendly, and visually appealing
+        websites. <br />My goal is to create clean, functional designs that
+        provide great user experiences while constantly improving my coding
+        skills.
+      </p>
+    </section>
+
+    <section id="project">
+      <div class="project1">
+      <h2>Projects</h2>
+      <div class="span">
+        <a href="#"
+          ><img src="./img/Frame 3259.png" alt="image of my project"
+        /></a>
+        
+        <h4>
+          This project is a website where users can invest and trade their
+          coins, it is very responsive
+        <h4>
+          <h6>Stack:</h6>
+          <div class="details flex">
+  
+            <a href="#" class="button1">Html</a>
+            <a href="#" class="button1">Css</a>
+            <a href="#" class="button1">JavaScript</a>
+          </div>
+          <div class="icon">
+<a href="https://github.com/Preshy.123"><img src="./img/icons8-github-30 (2).png"style="width:2vw; height:4vh; "/></a>
+        <a href="https://maxim-theta.vercel.app/"><i
+            class="bxr bxs-arrow-out-up-right-stroke-square"
+            style="color: rgb(46, 46, 46) "></i>
+        </a> </div>
+      </div>
+      </div>
+    </section>
+    <section id="skills">
+      <h2>Skills</h2>
+      <h4>The following skills made me a front end developer:</h4>
+      <div class="skills1">
+        <a href="#" class="skillset">Html</a>
+            <a href="#" class="skillset">Css</a>
+            <a href="#" class="skillset">JavaScript</a>
+            <a href="#" class="skillset">Git & Github</a>
+            <a href="#" class="skillset">React</a>
+       </div>
+    </section>
+    <section id="contacts">
+      <h2>Contact</h2>
+      <h4>Here is where you can contact me;</h4>
+      <div class="anchor">
+      <a href="emailto:precious360@gmail.com"
+        >Emailto: preciouspresh360@gmail.com
+      </a>
+      <a href="#">Call: 08164313125</a>
+      </div>
+       <div class="socials">
+       <h5> Socials:</h5> 
+      <a href="https://github.com/Preshy.123"
+        ><img src="./img/icons8-github-30 (2).png"></a>
+      <a href="https://linkedin.com/in/precious-okafor-2b68b0376"
+        ><img src="./img/icons8-linkedin-30.png" alt=""
+      /></a>
+      <a
+        href="https://www.instagram.com/preshnovaxx?igsh=MXBubmdva2NydmdpNQ%3D%3D&utm_source=qr"
+        ><img src="./img/icons8-instagram-30.png" alt=""
+      /></a>
+       </div>
+    
+
+    <div class="container1">
+      <form id="contactForm">
+        
+        <input type="name" id="name" placeholder="Enter your name" /><br />
+ 
+        <input type="email" id="email" placeholder="Enter your email" /><br />
+      
+        <input
+          type="message"
+          id="message"
+          placeholder="Write message"
+        /><br />
+
+        <button type="submit">Submit</button>
+        <p id="error" style="color:rgb(24, 24, 24);"></p>
+      </form>
+     
+    </div>
+    </section>
+    <footer>
+      2025 Preshlyn. All rights reserved
+    </footer>
+
+    <script src="./home.js"></script>
+  </body>
+</html>

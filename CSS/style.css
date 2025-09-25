@@ -1,0 +1,384 @@
+body {
+  background-color: darkgrey;
+  
+}
+.grid {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+.grid-2 {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 4em;
+}
+.logo img {
+  width: 5vw;
+  height: 7vh;
+  position: relative;
+  left: 4em;
+}
+
+.navbox {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1em;
+  height: 8vh;
+  width: 100vw;
+  max-width: max-content;
+  margin: auto;
+  position: relative;
+  bottom: 1em;
+  z-index: 1;
+}
+.nav-menu {
+  width: 100%;
+}
+.nav-menu-list {
+  justify-content: space-between;
+  padding-left: 30em;
+  padding-top: 0.5em;
+  word-spacing: 3em;
+}
+.nav-menu-list a {
+  text-decoration: none;
+  color: rgb(55, 55, 55);
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+}
+
+.hero {
+  height: 80vh;
+  width: 80vw;
+  /* position: relative; */
+  /* max-width: 800px; */
+  margin-bottom: 6em;
+}
+
+.hero-details h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(46, 46, 46);
+  font-size: 60px;
+  position: relative;
+  margin-left: 2em;
+  text-align: center;
+}
+.hero-details > p {
+  color: rgb(46, 46, 46);
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  margin-left: 2em;
+  margin-top: 1em;
+  text-align: center;
+}
+.hero img {
+  width: 60%;
+  height: 60vh;
+  margin-left: 15em;
+  margin-top: 2em;
+  position: relative;
+  border-radius: 20%;
+  border: 3px solid lavender;
+  box-sizing: border-box;
+  align-items: center;
+}
+#about {
+  height: 110vh;
+  width: 100%;
+}
+#about img {
+  height: 50vh;
+  width: 30%;
+  position: relative;
+  margin-left: 25em;
+}
+#about h2 {
+  color: rgb(46, 46, 46);
+  text-decoration: underline black;
+  font-weight: bolder;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: xx-large;
+  
+}
+#about h4 {
+  font-weight: bold;
+  color: rgb(46, 46, 46);
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 15em;
+  font-size: larger;
+  padding-top: 1em;
+}
+#about p {
+  color: rgb(46, 46, 46);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-align: start;
+  font-size: larger;
+  margin-left: 15em;
+  
+}
+#project {
+  width: 100vw;
+  height: 100vh;
+}
+.project1 {
+  width: 60%;
+  height: 100vh;
+  margin-left: 15em;
+  justify-content: center;
+}
+#project h2 {
+  color: rgb(46, 46, 46);
+  text-decoration: underline black;
+  font-weight: bolder;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: xx-large;
+}
+.span {
+  width: 350px;
+  height: 80vh;
+  padding-bottom: 15px;
+  margin-left: 11em;
+  margin-bottom: 20px;
+  border: 2px solid lavender;
+}
+
+.span img {
+  height: 40vh;
+  width: 270px;
+  color: #141421;
+  padding-left: 5em;
+}
+.span h4 {
+  color: rgb(46, 46, 46);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: large;
+}
+.span h6 {
+  color: rgb(46, 46, 46);
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: medium;
+  text-decoration: underline black;
+}
+.details {
+  gap: 2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  margin: auto;
+}
+.button1 {
+  background-color: lavender;
+  color: rgb(46, 46, 46);
+  border-radius: 1em;
+  border: 1px solid black;
+  padding: 0.3em 0.8em;
+  text-decoration: none;
+  position: relative;
+  bottom: 1em;
+}
+.icon {
+  display: flex;
+  justify-content: space-between;
+}
+.icon img {
+  position: relative;
+  right: 3em;
+}
+
+.icon i {
+  font-size: 25px;
+  padding-right: 1em;
+}
+.icon i :hover {
+  color: black;
+}
+
+#skills {
+  width: 100vw;
+  height: 70vh;
+}
+#skills h2 {
+  color: rgb(46, 46, 46);
+  text-decoration: underline black;
+  font-weight: bolder;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: xx-large;
+}
+#skills h4 {
+  font-weight: bold;
+  color: rgb(46, 46, 46);
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 3em;
+  font-size: larger;
+  text-align: center;
+}
+.skills1 {
+  height: 50vh;
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1em;
+  padding: 20px 0px 10px 0px;
+  margin-left: 23em;
+}
+.skillset {
+  color: rgb(46, 46, 46);
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  padding: 10px 10px 10px 10px;
+  background-color: lavender;
+  border-radius: 20px;
+  border: 2px solid black;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-decoration: none;
+}
+#contacts {
+  width: 100vw;
+  height: 120vh;
+  position: relative;
+}
+#contacts h2 {
+  color: rgb(46, 46, 46);
+  text-decoration: underline black;
+  font-weight: bolder;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: xx-large;
+}
+#contacts h4 {
+  font-weight: bold;
+  color: rgb(46, 46, 46);
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 3em;
+  font-size: larger;
+  text-align: center;
+}
+.anchor {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  text-align: center;
+  padding-top: 2.5em;
+}
+.anchor a {
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  text-decoration: none;
+  color: rgb(46, 46, 46);
+}
+.socials h5 {
+  font-weight: bold;
+  color: rgb(46, 46, 46);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: larger;
+  position: relative;
+  bottom: 1.5em;
+}
+.socials {
+  display: flex;
+  flex-direction: row;
+  gap: 3em;
+  position: relative;
+  left: 29.5em;
+  top: 1em;
+}
+.container1 {
+  height: 40vh;
+  width: 50vw;
+  text-align: start;
+  padding-top: 1em;
+  margin-left: 2em;
+}
+input {
+  padding: 20px;
+  margin-top: 2em;
+  border-radius: 1em;
+  text-align: center;
+  background-color: lavender;
+  border: 2px solid black;
+  width: 50vw;
+   margin-left: 2em;
+}
+
+
+#message{
+ height: 20vh;
+}
+
+/* label {
+  color: rgb(46, 46, 46);
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: larger;
+} */
+button {
+  padding: 0.5em;
+  margin-top: 2.5em;
+  color: rgb(46, 46, 46);
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: larger;
+  border-radius: 1em;
+  border: 2px solid black;
+  background-color: lavender;
+  margin-left: 2em;
+}
+footer {
+  font-size: larger;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: rgb(46, 46, 46);
+  margin-top: 7em;
+  text-align: center;
+
+}
+.toggle_menu {
+  display: none;
+}
+
+/* Light mode (default) */
+body {
+  background-color: darkgrey;
+  color: white;
+  transition: background 0.3s, color 0.3s;
+}
+
+/* Dark mode */
+body.dark-mode {
+  background-color: white;
+  color: rgb(46, 46, 46);
+}
+
+#modeToggle {
+  position: relative;
+  background: none;
+  bottom: 5em;
+  left: 27em;
+  padding: 0 0 0 0;
+  cursor: pointer;
+}
+/* #error {
+  color: red;
+  font-size: 14px;
+  background: lavender;
+  padding: 8px;
+  border: 1px solid black;
+  border-radius: 5px;
+   display: none; hidden until error shows 
+}  */
