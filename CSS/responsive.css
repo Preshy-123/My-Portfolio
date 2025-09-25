@@ -57,18 +57,18 @@
   }
   .hero-details h1 {
     position: relative;
-    max-width: 100%;
+    
     font-size: 35px;
     align-items: center;
-    right: 1em;
+    right: 2em;
   }
   .hero-details p {
     text-align: center;
     margin-bottom: 1em;
-    max-width: 100%;
+  
     font-size: 20px;
     position: relative;
-    right: 1em;
+    right: 2em;
   }
   .hero img {
     position: absolute;
@@ -79,7 +79,7 @@
     
   }
   #about {
-    height: 80vh;
+    height: 75vh;
     width: 100vw;
   }
   #about img {
@@ -97,7 +97,7 @@
     font-size: 18px;
     text-align: center;
     position: relative;
-    right: 14em;
+    right: 13em;
     font-weight: bold;
     top: 6em;
     
@@ -108,8 +108,8 @@
     position: relative;
     top: 6em;
     margin: auto;
-    padding-left: 1em;
-    padding-right: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
     
   }
   #project {
