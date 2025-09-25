@@ -140,7 +140,7 @@ body {
 }
 .span {
   width: 350px;
-  height: 80vh;
+  height: 85vh;
   padding-bottom: 15px;
   margin-left: 11em;
   margin-bottom: 20px;
@@ -150,8 +150,9 @@ body {
 .span img {
   height: 40vh;
   width: 270px;
-  color: #141421;
+  color: rgb(46, 46, 46);
   padding-left: 5em;
+  background-color:#26263d;
 }
 .span h4 {
   color: rgb(46, 46, 46);
@@ -189,11 +190,12 @@ body {
 }
 .icon {
   display: flex;
-  justify-content: space-between;
-}
-.icon img {
+  flex-direction: row;
   position: relative;
-  right: 3em;
+  left:15em ;
+  gap: 14em;
+  bottom: 4em;
+
 }
 
 .icon i {
@@ -344,8 +346,9 @@ footer {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
   color: rgb(46, 46, 46);
-  margin-top: 7em;
+  margin-top: 13em;
   text-align: center;
+  
 
 }
 .toggle_menu {
