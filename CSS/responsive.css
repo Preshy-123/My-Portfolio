@@ -62,7 +62,7 @@
     
     font-size: 35px;
     align-items: center;
-    right: 1.5em;
+    right: 1em;
   }
   .hero-details p {
     text-align: center;
@@ -70,7 +70,7 @@
   
     font-size: 20px;
     position: relative;
-    right: 2em;
+    right: 1em;
   }
   .hero img {
     position: absolute;
@@ -81,7 +81,7 @@
     
   }
   #about {
-    height: 80vh;
+    height: 90vh;
     width: 100vw;
   }
   #about img {
@@ -96,12 +96,12 @@
   }
   #about h4 {
     margin-top: 13em;
-    font-size: 18px;
+    font-size: 16px;
     text-align: center;
     position: relative;
     right: 13em;
-    font-weight: bold;
-    top: 6em;
+    font-weight: bolder;
+    top: 7em;
     
   }
   #about p {
