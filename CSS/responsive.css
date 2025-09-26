@@ -95,11 +95,11 @@
   text-decoration: underline;
   }
   #about h4 {
-    margin-top: 19em;
+    margin-top: 13em;
     font-size: 16px;
     text-align: center;
     position: relative;
-    right: 15em;
+    right: 14em;
     font-weight: bolder;
     top: 7em;
     
@@ -144,7 +144,7 @@
   position: absolute;
   left:11em ;
   gap: 14em;
-  bottom: 4em;
+  bottom: 2em;
   }
 
   #skills {
@@ -187,7 +187,7 @@
     text-align: center;
     font-size: 14px;
     font-weight: bolder;
-    top: 20em;
+    top: 15em;
     position: relative;
 
   }
